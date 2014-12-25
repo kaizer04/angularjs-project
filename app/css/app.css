@@ -58,3 +58,12 @@ input.ng-dirty.ng-valid.validity {
 [ng\:cloak], [ng-cloak], .ng-cloak {
   display: none !important;
 }
+
+#footer {
+    display: block;
+    padding: 5px;
+    background: #A9D18E;
+    font-size: 10pt;
+    text-align: center;
+    clear: both;
+}
