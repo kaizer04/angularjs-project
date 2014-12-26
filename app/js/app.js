@@ -2,7 +2,7 @@
 
 var app = angular.module('myApp', ['ngRoute', 'ngResource', 'ngCookies']).
     config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider) {
-//        $httpProvider.interceptors.push('errorHandlerHttpInterceptor');
+        $httpProvider.interceptors.push('errorHandlerHttpInterceptor');
 
         $routeProvider
             .when('/', {
