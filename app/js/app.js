@@ -2,9 +2,13 @@
 
 var app = angular.module('myApp', ['ngRoute', 'ngResource', 'ngCookies']).
     config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider) {
-        $httpProvider.interceptors.push('errorHandlerHttpInterceptor');
+//        $httpProvider.interceptors.push('errorHandlerHttpInterceptor');
 
         $routeProvider
+            .when('/', {
+                templateUrl: 'views/partials/home.html',
+                controller: 'HomeCtrl'
+            })
             .when('/register', {
                 templateUrl: 'views/partials/register.html',
                 controller: 'SignUpCtrl'
@@ -20,4 +24,4 @@ var app = angular.module('myApp', ['ngRoute', 'ngResource', 'ngCookies']).
             .otherwise({ redirectTo: '/partial1' });
     }])
     .value('toastr', toastr)
-    .constant('baseServiceUrl', 'http://localhost:1337/api');
+    .constant('baseServiceUrl', 'http://localhost:1337');

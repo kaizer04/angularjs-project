@@ -1,7 +1,7 @@
 'use strict';
 
 app.factory('auth', ['$http', '$q', 'identity', 'authorization', 'baseServiceUrl', function($http, $q, identity, authorization, baseServiceUrl) {
-    var usersApi = baseServiceUrl + '/api/users'
+    var usersApi = baseServiceUrl + '/api/user'
 
     return {
         signup: function(user) {
