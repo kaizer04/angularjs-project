@@ -1,7 +1,9 @@
 'use strict';
 
 var app = angular.module('myApp', ['ngRoute', 'ngResource', 'ngCookies']).
-    config(['$routeProvider', function($routeProvider) {
+    config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider) {
+        $httpProvider.interceptors.push('errorHandlerHttpInterceptor');
+
         $routeProvider
             .when('/register', {
                 templateUrl: 'views/partials/register.html',
@@ -18,4 +20,4 @@ var app = angular.module('myApp', ['ngRoute', 'ngResource', 'ngCookies']).
             .otherwise({ redirectTo: '/partial1' });
     }])
     .value('toastr', toastr)
-    .constant('baseServiceUrl', 'http://spa2014.bgcoder.com');
+    .constant('baseServiceUrl', 'http://localhost:1337/api');
