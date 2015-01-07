@@ -23,10 +23,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="public-ads.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="public-ads.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/directives/public-ads.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="0.22410546" vertical-offset="0" max-vertical-offset="531">
+            <state line="7" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="-59.5" vertical-offset="0" max-vertical-offset="221">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PublicAdsCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adsData.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/js/services/data/adsData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="public-ads.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/public/public-ads.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="22" selection-start="93" selection-end="93" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
@@ -66,8 +93,10 @@
         <option value="$PROJECT_DIR$/app/templates/login.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/LoginCtrl.js" />
         <option value="$PROJECT_DIR$/app/js/services/authentication.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js" />
         <option value="$PROJECT_DIR$/app/js/directives/public-ads.js" />
+        <option value="$PROJECT_DIR$/app/templates/public/public-ads.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js" />
+        <option value="$PROJECT_DIR$/app/js/services/data/adsData.js" />
       </list>
     </option>
   </component>
@@ -150,28 +179,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -573,16 +580,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/public/public-ads.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="29" selection-start="16" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+        <state line="3" column="22" selection-start="93" selection-end="93" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/directives/public-ads.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="0.22410546" vertical-offset="0" max-vertical-offset="531">
+        <state line="7" column="3" selection-start="201" selection-end="201" vertical-scroll-proportion="-59.5" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/data/adsData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533">
           <folding />
         </state>
       </provider>
