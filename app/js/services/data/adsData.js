@@ -1,10 +1,10 @@
-app.factory('adsData', 'baseServiceUrl', ['$resource', function($resource, baseServiceUrl){
+app.factory('adsData', ['$resource', 'baseServiceUrl', function($resource, baseServiceUrl){
     var resource = $resource(baseServiceUrl + 'ads:adId', {adId: '@id'}, {
         update: {method: 'PUT'}
     });
 
     function getPublicAds(){ //pageSize, startPage
-        return resource.query();
+        return resource.get();
     };
 
     function editAd (adId, ad) {
@@ -26,7 +26,7 @@ app.factory('adsData', 'baseServiceUrl', ['$resource', function($resource, baseS
     return {
         getPublicAds: getPublicAds,
         edit: editAd,
-        gatAdById: gatAdById,
+        getAdById: getAdById,
         add: addAd,
         delete: deleteAd
     }
