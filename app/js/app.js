@@ -11,9 +11,9 @@ app.config(['$routeProvider', function ($routeProvider){
         templateUrl: '/templates/login.html',
         controller: 'LoginCtrl'
     });
-    $routeProvider.when('/login', {
-        templateUrl: '/templates/login.html',
-        controller: 'LoginCtrl'
+    $routeProvider.when('/register', {
+        templateUrl: '/templates/register.html',
+        controller: 'RegisterCtrl'
     });
     $routeProvider.otherwise({
         redirectTo: '/'
