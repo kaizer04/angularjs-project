@@ -1,3 +1,3 @@
-/**
- * Created by User on 15-1-7.
- */
+app.controller('RegisterCtrl', ['$scope', function($scope) {
+
+}]);
