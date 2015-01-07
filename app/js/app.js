@@ -7,6 +7,14 @@ app.config(['$routeProvider', function ($routeProvider){
         templateUrl: '/templates/home.html',
         controller: 'HomeCtrl'
     });
+    $routeProvider.when('/login', {
+        templateUrl: '/templates/login.html',
+        controller: 'LoginCtrl'
+    });
+    $routeProvider.when('/login', {
+        templateUrl: '/templates/login.html',
+        controller: 'LoginCtrl'
+    });
     $routeProvider.otherwise({
         redirectTo: '/'
     });

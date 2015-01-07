@@ -1,5 +1,3 @@
-'use strict'
-
-app.controller('HomeCtr', ['$score', function($scope){
+app.controller('HomeCtrl', ['$scope', function($scope){
     $scope.pageTitle = 'Home';
 }]);
