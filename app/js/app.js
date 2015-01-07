@@ -1,6 +1,6 @@
 'use strict'
 
-var app = angular.module('adsApp', ['ngRoute']);
+var app = angular.module('adsApp', ['ngRoute', 'ngResource']);
 
 //app.constant('baseServiceUrl', 'http://localhost:1337/api/');
 app.constant('baseServiceUrl', 'http://softuni-ads.azurewebsites.net/api/');
