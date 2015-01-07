@@ -1,8 +1,8 @@
 app.directive('publicAds', function(){
     return {
-        controller: 'HomeCtrl',
+        controller: 'PublicAdsCtrl',
         restrict: 'E',
-        templateUrl: 'templates/public/left-sidebar.html',
+        templateUrl: 'templates/public/public-ads.html',
         replace: true
     };
 });

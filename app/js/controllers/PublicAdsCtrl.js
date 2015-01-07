@@ -1,3 +1,3 @@
-app.controller('PublicAdsCtrl', ['', function() {
+app.controller('PublicAdsCtrl', ['$scope', function($scope) {
 
 }]);
