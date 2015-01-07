@@ -53,7 +53,7 @@
       <file leaf-file-name="userData.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/services/data/userData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="14" selection-start="508" selection-end="508" vertical-scroll-proportion="0.69815195" vertical-offset="0" max-vertical-offset="510">
+            <state line="7" column="56" selection-start="406" selection-end="406" vertical-scroll-proportion="0.24435319" vertical-offset="0" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="authentication.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/services/authentication.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="3" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+            <state line="19" column="6" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
               <folding />
             </state>
           </provider>
@@ -108,9 +108,9 @@
         <option value="$PROJECT_DIR$/app/js/controllers/RegisterCtrl.js" />
         <option value="$PROJECT_DIR$/app/templates/register.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
-        <option value="$PROJECT_DIR$/app/js/services/data/userData.js" />
-        <option value="$PROJECT_DIR$/app/js/services/authentication.js" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/js/services/authentication.js" />
+        <option value="$PROJECT_DIR$/app/js/services/data/userData.js" />
       </list>
     </option>
   </component>
@@ -523,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/authentication.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="3" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="29" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
@@ -544,9 +537,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/authentication.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/services/data/userData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="14" selection-start="508" selection-end="508" vertical-scroll-proportion="0.69815195" vertical-offset="0" max-vertical-offset="510">
+        <state line="7" column="56" selection-start="406" selection-end="406" vertical-scroll-proportion="0.24435319" vertical-offset="0" max-vertical-offset="527">
           <folding />
         </state>
       </provider>

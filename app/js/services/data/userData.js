@@ -5,6 +5,7 @@ app.factory ('userData', ['$resource', 'baseServiceUrl', 'authentication', funct
             .$promise
             .then(function(data) {
                 authentication.saveUser(data);
+                console.log(authentication.getHeaders());
             });
     }
 

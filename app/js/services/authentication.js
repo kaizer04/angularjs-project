@@ -9,8 +9,19 @@ app.factory('authentication', function(){
         return angular.fromJson(localStorage.getItem(key));
     };
 
+    function getHeaders(argument) {
+        var headers = {};
+        var userData = getUserData();
+        if (userData){
+            headers.Authorization = 'Bearer ' +  getUserData().access_token;
+        };
+
+        return headers;
+    };
+
     return {
         saveUser: saveUserData,
-        getUser: getUserData
+        getUser: getUserData,
+        getHeaders: getHeaders
     }
 });
