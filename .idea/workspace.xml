@@ -50,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="30" selection-start="213" selection-end="230" vertical-scroll-proportion="0.25591397" vertical-offset="0" max-vertical-offset="465">
+            <state line="17" column="6" selection-start="499" selection-end="499" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logged-in-sidebar.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="logged-in-sidebar.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/directives/logged-in-sidebar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="42" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+            <state line="7" column="3" selection-start="220" selection-end="220" vertical-scroll-proportion="0.24236253" vertical-offset="0" max-vertical-offset="491">
               <folding />
             </state>
           </provider>
@@ -78,7 +78,7 @@
         </entry>
       </file>
       <file leaf-file-name="logged-in-sidebar.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/directives/logged-in-sidebar.html">
+        <entry file="file://$PROJECT_DIR$/app/templates/public/logged-in-sidebar.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="33" selection-start="136" selection-end="136" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
               <folding />
@@ -277,28 +277,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="angularjs-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -437,6 +415,7 @@
       <recent name="D:\GitHub\angularjs-project\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\angularjs-project\app\templates\public" />
       <recent name="D:\GitHub\angularjs-project\app\js" />
     </key>
   </component>
@@ -711,7 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/directives/logged-in-sidebar.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/public/logged-in-sidebar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="33" selection-start="136" selection-end="136" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="221">
           <folding />
@@ -732,16 +711,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/logged-in-sidebar.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="42" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state line="17" column="6" selection-start="499" selection-end="499" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/home.html">
+    <entry file="file://$PROJECT_DIR$/app/js/directives/logged-in-sidebar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="213" selection-end="230" vertical-scroll-proportion="0.25591397" vertical-offset="0" max-vertical-offset="465">
+        <state line="7" column="3" selection-start="220" selection-end="220" vertical-scroll-proportion="0.24236253" vertical-offset="0" max-vertical-offset="491">
           <folding />
         </state>
       </provider>
