@@ -44,7 +44,7 @@
       <file leaf-file-name="PublicAdsCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="178" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
+            <state line="6" column="31" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -62,16 +62,34 @@
       <file leaf-file-name="public-ads.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/public/public-ads.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="6" selection-start="129" selection-end="129" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
+            <state line="7" column="6" selection-start="210" selection-end="210" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TownsCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="LoginCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/LoginCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="36" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userData.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/js/services/data/userData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="21" selection-start="671" selection-end="671" vertical-scroll-proportion="0.749499" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TownsCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/TownsCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.06640625" vertical-offset="0" max-vertical-offset="512">
+            <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -123,18 +141,18 @@
         <option value="$PROJECT_DIR$/app/js/controllers/RegisterCtrl.js" />
         <option value="$PROJECT_DIR$/app/templates/register.html" />
         <option value="$PROJECT_DIR$/app/js/app.js" />
-        <option value="$PROJECT_DIR$/app/js/services/data/userData.js" />
         <option value="$PROJECT_DIR$/app/templates/login.html" />
-        <option value="$PROJECT_DIR$/app/js/controllers/LoginCtrl.js" />
         <option value="$PROJECT_DIR$/app/js/services/authentication.js" />
         <option value="$PROJECT_DIR$/app/js/directives/public-ads.js" />
         <option value="$PROJECT_DIR$/app/js/services/data/adsData.js" />
-        <option value="$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js" />
-        <option value="$PROJECT_DIR$/app/templates/public/public-ads.html" />
         <option value="$PROJECT_DIR$/app/templates/public/towns.html" />
         <option value="$PROJECT_DIR$/app/js/directives/towns.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/TownsCtrl.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js" />
+        <option value="$PROJECT_DIR$/app/templates/public/public-ads.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/LoginCtrl.js" />
+        <option value="$PROJECT_DIR$/app/js/services/data/userData.js" />
       </list>
     </option>
   </component>
@@ -584,13 +602,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/data/userData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="800" selection-end="800" vertical-scroll-proportion="0.0" vertical-offset="193" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/RegisterCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="5" selection-start="336" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
@@ -601,13 +612,6 @@
     <entry file="file://$PROJECT_DIR$/app/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="129" selection-start="742" selection-end="742" vertical-scroll-proportion="0.3900862" vertical-offset="40" max-vertical-offset="527">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/LoginCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="4" selection-start="157" selection-end="157" vertical-scroll-proportion="0.1310212" vertical-offset="0" max-vertical-offset="519">
           <folding />
         </state>
       </provider>
@@ -633,30 +637,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="26" selection-start="178" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/public/public-ads.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="129" selection-end="129" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/public/towns.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="23" selection-start="77" selection-end="77" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="204">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/public-ads.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="201" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
@@ -668,6 +651,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/TownsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/PublicAdsCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/public-ads.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="201" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="31" selection-start="1174" selection-end="1174" vertical-scroll-proportion="-10.461538" vertical-offset="136" max-vertical-offset="748">
@@ -675,9 +679,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/TownsCtrl.js">
+    <entry file="file://$PROJECT_DIR$/app/templates/public/public-ads.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.06640625" vertical-offset="0" max-vertical-offset="512">
+        <state line="7" column="6" selection-start="210" selection-end="210" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/LoginCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="36" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/data/userData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="21" selection-start="671" selection-end="671" vertical-scroll-proportion="0.749499" vertical-offset="0" max-vertical-offset="731">
           <folding />
         </state>
       </provider>
