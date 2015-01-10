@@ -1,5 +1,15 @@
 <header>
     <h1 class="text-center">Ads - {{pageTitle}}</h1>
+    <ul ng-show="identity.isAuthenticated()" class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+            <a href="" data-toggle="dropdown" class="dropdown-toggle">{{ identity.getCurrentUser().userName }}<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#" ng-click="logout()">Sign Out</a>
+                </li>
+            </ul>
+        </li>
+    </ul>
 </header>
 <div id="wrapper" class="container">
     <div class="row">

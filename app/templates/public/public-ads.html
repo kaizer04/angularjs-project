@@ -1,7 +1,7 @@
 <div id="public-ads">
     <img scr="images/loading.gif" ng-hide="ready" alt="" width="150px">
     <ul ng-cloak>
-        <li ng-repeat="ad in adsData.ads" class="row">
+        <li ng-repeat="ad in adsData.ads" class="row" class="panel-body">
             <h2>{{ad.title}}<span style="float: right;font-size: 10px">{{ad.date | date:'dd-MMM-yyyy'}}</span></h2>
             <img alt="" src="images/no_image.png" ng-src="{{ad.imageDataUrl}}" width="150px" style="float: left">
             <div>{{ad.text}}</div>
