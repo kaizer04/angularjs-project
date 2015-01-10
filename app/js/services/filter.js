@@ -1,4 +1,4 @@
-app.factory('filter', ['', function() {
+app.factory('filter', function() {
     var filterParams = {};
 
     function filterByCategory(category) {
@@ -18,4 +18,4 @@ app.factory('filter', ['', function() {
         filterByTown: filterByTown,
         getFilterParams: getFilterParams
     }
-}]);
+});

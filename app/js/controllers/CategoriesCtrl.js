@@ -1,4 +1,4 @@
-app.controller('CategoriesCtrl', ['$scope', 'categoriesData', 'filter', function($scope, categoriesData, filter){
+app.controller('CategoriesCtrl', ['$scope', '$rootScope', 'categoriesData', 'filter', function($scope, $rootScope, categoriesData, filter){
 
 
     categoriesData.getCategories()
@@ -9,6 +9,6 @@ app.controller('CategoriesCtrl', ['$scope', 'categoriesData', 'filter', function
 
     $scope.categoryClicked = function categoryClicked(category) {
         filter.filterByCategory(category);
-
+        $rootScope.$broadcast('categoryClicked', category);
     };
 }]);

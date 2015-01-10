@@ -21,7 +21,7 @@ app.controller('PublicAdsCtrl', ['$scope', 'adsData', function($scope, adsData) 
 //            $scope.ready = true;
 //        });
 
-    $scope.on('categoryClicked', function (event, category) {
-
+    $scope.$on('categoryClicked', function (event, category) {
+        loadPublicAds(filter.getFilterParams());
     });
 }]);
