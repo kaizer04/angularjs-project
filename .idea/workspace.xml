@@ -23,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="7" selection-start="1959" selection-end="1959" vertical-scroll-proportion="-13.730769" vertical-offset="289" max-vertical-offset="782">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="public-ads.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/directives/public-ads.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,10 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logged-in-sidebar.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CategoriesCtrl.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/CategoriesCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="491">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logged-in-sidebar.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/directives/logged-in-sidebar.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="3" selection-start="220" selection-end="220" vertical-scroll-proportion="0.24236253" vertical-offset="0" max-vertical-offset="491">
+            <state line="7" column="3" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -156,6 +156,7 @@
         <option value="$PROJECT_DIR$/app/js/controllers/LoggedInSidebarCtrl.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/js/directives/logged-in-sidebar.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/CategoriesCtrl.js" />
       </list>
     </option>
   </component>
@@ -711,6 +712,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/directives/logged-in-sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="6" selection-start="499" selection-end="499" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="391">
@@ -718,9 +726,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/directives/logged-in-sidebar.js">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/CategoriesCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="3" selection-start="220" selection-end="220" vertical-scroll-proportion="0.24236253" vertical-offset="0" max-vertical-offset="491">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="491">
           <folding />
         </state>
       </provider>
