@@ -1,0 +1,78 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'angular-bootstrap' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 warn package.json Ads-Angular@1.0.0 No repository field.
+6 warn package.json Ads-Angular@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'angular-bootstrap', null ]
+9 verbose cache add name=undefined spec="angular-bootstrap" args=["angular-bootstrap",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'angular-bootstrap',
+10 verbose parsed url   path: 'angular-bootstrap',
+10 verbose parsed url   href: 'angular-bootstrap' }
+11 silly lockFile 75c42a0c-angular-bootstrap angular-bootstrap
+12 verbose lock angular-bootstrap C:\Users\User\AppData\Roaming\npm-cache\75c42a0c-angular-bootstrap.lock
+13 silly lockFile 75c42a0c-angular-bootstrap angular-bootstrap
+14 silly lockFile 75c42a0c-angular-bootstrap angular-bootstrap
+15 verbose addNamed [ 'angular-bootstrap', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile eebb98d0-angular-bootstrap angular-bootstrap@
+18 verbose lock angular-bootstrap@ C:\Users\User\AppData\Roaming\npm-cache\eebb98d0-angular-bootstrap.lock
+19 silly addNameRange { name: 'angular-bootstrap', range: '*', hasData: false }
+20 verbose request where is /angular-bootstrap
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 6e715e9516dad6a2
+23 verbose url raw /angular-bootstrap
+24 verbose url resolving [ 'https://registry.npmjs.org/', './angular-bootstrap' ]
+25 verbose url resolved https://registry.npmjs.org/angular-bootstrap
+26 verbose request where is https://registry.npmjs.org/angular-bootstrap
+27 info trying registry request attempt 1 at 17:14:26
+28 http GET https://registry.npmjs.org/angular-bootstrap
+29 http 404 https://registry.npmjs.org/angular-bootstrap
+30 silly registry.get cb [ 404,
+30 silly registry.get   { date: 'Sat, 10 Jan 2015 15:14:17 GMT',
+30 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+30 silly registry.get     etag: '"75A5CM87ZDKXM40LKQ87286R9"',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '715',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-fra1223-FRA',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1420902856.910630,VS0,VE427',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 silly lockFile eebb98d0-angular-bootstrap angular-bootstrap@
+32 silly lockFile eebb98d0-angular-bootstrap angular-bootstrap@
+33 error 404 Not Found
+33 error 404
+33 error 404 'angular-bootstrap' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'Ads-Angular'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Windows_NT 6.1.7601
+35 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "angular-bootstrap"
+36 error cwd D:\GitHub\angularjs-project\app
+37 error node -v v0.10.32
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
