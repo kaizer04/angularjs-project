@@ -1,15 +1,10 @@
 <header>
-    <h1 class="text-center">Ads - {{pageTitle}}</h1>
-    <ul ng-show="identity.isAuthenticated()" class="nav navbar-nav navbar-right">
-        <li class="dropdown">
-            <a href="" data-toggle="dropdown" class="dropdown-toggle">{{ identity.getCurrentUser().userName }}<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-                <li>
-                    <a href="#" ng-click="logout()">Sign Out</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
+    <h1 class="text-center">Ads - {{pageTitle}}<div ng-if="isLoggedIn" class="navbar-header navbar-right">
+        <!--<span>{{getUserData().username}}</span>-->
+        <a href="#" ng-click="logoutUser()">Logout</a>
+
+    </div></h1>
+    
 </header>
 <div id="wrapper" class="container">
     <div class="row">
