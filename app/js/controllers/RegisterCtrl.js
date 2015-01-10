@@ -3,7 +3,6 @@ app.controller('RegisterCtrl', ['$scope', 'townsData', 'userData', function($sco
         .$promise
         .then(function (data) {
             $scope.towns = data;
-            console.log(data);
         });
 
     $scope.register = function (user) {
