@@ -1,10 +1,10 @@
-app.controller('PublicAdsCtrl', ['$scope', 'adsData', function($scope, adsData) {
+app.controller('PublicAdsCtrl', ['$scope', 'adsData', 'filter', function($scope, adsData, filter) {
     $scope.ready = false;
 
     function loadPublicAds(filterParams) {
         filterParams = filterParams || {};
 
-        adsData.getPublicAds()
+        adsData.getPublicAds(filterParams)
             .$promise
             .then(function (data) {
                 $scope.adsData = data;
