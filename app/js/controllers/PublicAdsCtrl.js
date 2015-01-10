@@ -1,6 +1,10 @@
 app.controller('PublicAdsCtrl', ['$scope', 'adsData', 'filter', function($scope, adsData, filter) {
     $scope.ready = false;
 
+    $scope.currentPage = 1;
+    $scope.startPage = 1;
+    $scope.pageSize = 10;
+
     function loadPublicAds(filterParams) {
         filterParams = filterParams || {};
 
@@ -14,18 +18,15 @@ app.controller('PublicAdsCtrl', ['$scope', 'adsData', 'filter', function($scope,
 
     loadPublicAds();
 
-//    adsData.getPublicAds()
-//        .$promise
-//        .then(function (data) {
-//            $scope.adsData = data;
-//            $scope.ready = true;
-//        });
+    $scope.pageChanged = function() {
+        console.log('ura');
+    };
 
     $scope.$on('categoryClicked', function (event, category) {
-        loadPublicAds(filter.getFilterParams());
+        loadPublicAds(filter.getParams());
     });
 
     $scope.$on('townClicked', function (event, town) {
-        loadPublicAds(filter.getFilterParams());
+        loadPublicAds(filter.getParams());
     });
 }]);
