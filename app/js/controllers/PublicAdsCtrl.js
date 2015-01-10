@@ -19,7 +19,8 @@ app.controller('PublicAdsCtrl', ['$scope', 'adsData', 'filter', function($scope,
     loadPublicAds();
 
     $scope.pageChanged = function() {
-        console.log('ura');
+        filter.setPageParams({startPage: $scope.currentPage, pageSize: numItems / numPages});
+        adsData.getPublicAds(filter.getParams());
     };
 
     $scope.$on('categoryClicked', function (event, category) {
