@@ -18,9 +18,14 @@ app.config(['$routeProvider', function ($routeProvider){
         templateUrl: '/templates/register.html',
         controller: 'RegisterCtrl'
     });
+    $routeProvider.when('/user/ads/publish', {
+        templateUrl: '/templates/publish-ad.html',
+        controller: 'PublishAdCtrl'
+    });
     $routeProvider.otherwise({
         redirectTo: '/'
     });
+
 
 //    // Web storages
 //    localStorageServiceProvider.setStorageType('localStorage');
