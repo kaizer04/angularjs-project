@@ -4,13 +4,6 @@ app.controller('HomeCtrl', ['$scope', 'authentication', 'userData', function($sc
 
     $scope.logout = function() {
         userData.logout().then(function() {
-//            notifier.success('Successful logout!');
-//            if ($scope.user) {
-//                $scope.user.email = '';
-//                $scope.user.username = '';
-//                $scope.user.password = '';
-//            }
-
             $location.path('/');
         })
     }

@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HomeCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/HomeCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="23" selection-start="247" selection-end="253" vertical-scroll-proportion="0.14190318" vertical-offset="0" max-vertical-offset="599">
+            <state line="5" column="23" selection-start="247" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -86,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userData.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="userData.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/services/data/userData.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="23" selection-start="664" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="731">
+            <state line="27" column="30" selection-start="833" selection-end="847" vertical-scroll-proportion="0.59599334" vertical-offset="102" max-vertical-offset="731">
               <folding />
             </state>
           </provider>
@@ -107,7 +107,7 @@
       <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="41" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="493">
+            <state line="5" column="45" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -733,21 +733,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="41" selection-start="206" selection-end="206" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/services/data/userData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="23" selection-start="664" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="731">
+        <state line="5" column="45" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/HomeCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="247" selection-end="253" vertical-scroll-proportion="0.14190318" vertical-offset="0" max-vertical-offset="599">
+        <state line="5" column="23" selection-start="247" selection-end="253" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/services/data/userData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="30" selection-start="833" selection-end="847" vertical-scroll-proportion="0.59599334" vertical-offset="102" max-vertical-offset="731">
           <folding />
         </state>
       </provider>

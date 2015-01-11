@@ -3,7 +3,7 @@
         Ads - {{pageTitle}}
         <span ng-if="isLoggedIn" class="navbar-header navbar-right">
             {{user.username}}
-            <a href="#" ng-click="logout()">Logout</a>
+            <a href="#" ng-click="logout(user)">Logout</a>
         </span>
     </h1>
 </header>
