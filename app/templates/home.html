@@ -1,10 +1,11 @@
 <header>
-    <h1 class="text-center">Ads - {{pageTitle}}<div ng-if="isLoggedIn" class="navbar-header navbar-right">
-        <!--<span>{{getUserData().username}}</span>-->
-        <a href="#" ng-click="logoutUser()">Logout</a>
-
-    </div></h1>
-    
+    <h1 class="text-center">
+        Ads - {{pageTitle}}
+        <span ng-if="isLoggedIn" class="navbar-header navbar-right">
+            {{user.username}}
+            <a href="#" ng-click="logoutUser()">Logout</a>
+        </span>
+    </h1>
 </header>
 <div id="wrapper" class="container">
     <div class="row">
