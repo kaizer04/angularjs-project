@@ -2,6 +2,6 @@ app.controller('PublishAdCtrl', ['$scope', 'adsData', 'filter', 'categoriesData'
     function($scope, adsData, filter, categoriesData, townsData) {
 
     $scope.publishAd = function(ad) {
-
+        adsData.add(ad);
     }
 }]);

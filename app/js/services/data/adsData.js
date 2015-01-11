@@ -1,6 +1,14 @@
-app.factory('adsData', ['$resource', 'baseServiceUrl', function($resource, baseServiceUrl){
+app.factory('adsData', ['$resource', 'baseServiceUrl', 'userData', 'authentication', function($resource, baseServiceUrl, userData, authentication){
     var resource = $resource(baseServiceUrl + 'ads:adId', {adId: '@id'}, {
         update: {method: 'PUT'}
+    });
+
+    var authorizationHeaders = 'Bearer ' + authentication.getUser().access_token;
+    var resource = $resource(baseServiceUrl + 'user/ads',{}, {
+        update: {
+            method: 'PUT',
+            headers: {'Authorization': authorizationHeaders}
+        }
     });
 
     function getPublicAds(params){ //pageSize, startPage
